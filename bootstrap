@@ -1,4 +1,4 @@
-INSTALL_HOME=
+INSTALL_HOME=/c/Users/aà47461/ONEDRI~1/Sources/EFREI/PROJET~1
 if [ $# -gt 0 ]; then
 	INSTALL_HOME=$1
 fi
