@@ -31,3 +31,7 @@ target_link_libraries(cunitbasic
 #add_library(cunitconsole SHARED
 #			cunit/Sources/Console/Console.c
 #			)
+install(TARGETS cunitbasic
+		DESTINATION ${TOP_BINARY_DIR})
+install(TARGETS cunittestfmk
+		DESTINATION ${TOP_BINARY_DIR})
