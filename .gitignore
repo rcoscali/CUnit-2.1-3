@@ -52,3 +52,43 @@ Mkfile.old
 dkms.conf
 
 cmake-build-debug/
+
+VC9/.vs/
+
+VC9/Backup/
+
+*.filters
+
+*.user
+
+*.recipe
+
+*.log
+
+*.sbr
+
+*.lastbuildstate
+
+*.tlog
+
+*.bsc
+
+*.htm
+
+VC9/BasicTest/x64/Release - DLL/BasicTest.vcxproj.FileListAbsolute.txt
+
+VC9/CUnit-Memory-Dump.xml
+
+VC9/Debug - Static Lib with MEMTRACE/AutomatedTest.vcxproj.FileListAbsolute.txt
+
+VC9/Debug - Static Lib with MEMTRACE/BasicTest.vcxproj.FileListAbsolute.txt
+
+VC9/Debug - Static Lib with MEMTRACE/ConsoleTest.vcxproj.FileListAbsolute.txt
+
+VC9/Debug - Static Lib with MEMTRACE/libcunit.vcxproj.FileListAbsolute.txt
+
+VC9/Debug - Static Lib with MEMTRACE/test_cunit.vcxproj.FileListAbsolute.txt
+
+VC9/libcunit/x64/Release - DLL/libcunit.vcxproj.FileListAbsolute.txt
+
+VC9/test_cunit/x64/Release - DLL/test_cunit.vcxproj.FileListAbsolute.txt
