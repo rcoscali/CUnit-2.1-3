@@ -5,8 +5,8 @@ set(CMAKE_C_STANDARD 11)
 
 # Add include dirs for libs
 include_directories(.)
-include_directories(./cunit/Sources)
-include_directories(./cunit/Headers)
+include_directories(./CUnit/Sources)
+include_directories(./CUnit/Headers)
 
 # Add library
 add_library(cunittestfmk STATIC
