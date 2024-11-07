@@ -10,17 +10,17 @@ include_directories(./cunit/Headers)
 
 # Add library
 add_library(cunittestfmk STATIC
-			cunit/Sources/Framework/CUError.c
-			cunit/Sources/Framework/MyMem.c
-  			cunit/Sources/Framework/TestDB.c
-  			cunit/Sources/Framework/TestRun.c
-  			cunit/Sources/Framework/Util.c 
+			CUnit/Sources/Framework/CUError.c
+			CUnit/Sources/Framework/MyMem.c
+  			CUnit/Sources/Framework/TestDB.c
+  			CUnit/Sources/Framework/TestRun.c
+  			CUnit/Sources/Framework/Util.c 
 			)
 set_target_properties(cunittestfmk
 			PROPERTIES
 			COMPILE_FLAGS -fPIC)
 add_library(cunitbasic SHARED
-			cunit/Sources/Basic/Basic.c
+			CUnit/Sources/Basic/Basic.c
 			)
 target_link_libraries(cunitbasic
 			cunittestfmk
